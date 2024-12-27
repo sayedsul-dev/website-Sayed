@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beginner Excel Tutorials</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="path/to/tema.css"> <!-- Include TEMA CSS -->
+    <script src="path/to/tema.js"></script> <!-- Include TEMA JS -->
+
+    <style>
+        .bg-green { background-color: green; }
+        .zoom { transition: transform 0.2s; /* Animation */ }
+        .zoom:hover { transform: scale(1.5); /* (150% zoom) */ }
+        .nav-link:hover { color: #125224; transition: color 0.3s ease-in-out; }
+        .nav-link:active { color: #104f20; }
+        .logo-img { width: 100px; height: 100px; }
+        .card-title { text-align: center; margin-top: -10px; }
+        .card-body p { text-align: center; margin-top: 20px; }
+        .card { padding: 10px; margin: auto; height: auto; display: inline-block; vertical-align: top; width: 516px; height: 410.67px; } /* Adjust card size */
+        .card-body { padding: 10px; }
+        .card-body iframe { height: 200px; } /* Adjust video height */
+        .video-container { display: flex; justify-content: center; flex-wrap: wrap; gap: 10px; } /* Flexbox for aligning videos */
+    </style>
+   <script>
+    if (!localStorage.getItem('loggedIn')) {
+        window.location.href = 'login.html';
+    }
+</script>
+
+</head>
+<body>
+    <header class="bg-green text-white text-center py-5">
+        <div class="container">
+            <h1 class="display-4">Beginner Excel Tutorials</h1>
+            <p class="lead">Start your journey to mastering Excel with easy-to-follow tutorials.</p>
+            <nav>
+                <ul class="nav justify-content-center mt-4">
+                    <li class="nav-item"><a href="index.html" class="nav-link text-white">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-white active">Beginner</a></li>
+                    <li class="nav-item"><a href="intermediate.html" class="nav-link text-white">Intermediate</a></li>
+                    <li class="nav-item"><a href="advanced.html" class="nav-link text-white">Advanced</a></li>
+                    <li class="nav-item"><a href="videos.html" class="nav-link text-white">Videos</a></li>
+                    <li class="nav-item"><a href="excel.html" class="nav-link text-white active">Exam</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="container my-5">
+        <h2 class="text-center mb-4">Excel Basics for Beginners</h2>
+        <div class="video-container">
+            <!-- Card 1 -->
+            <div class="card shadow-lg">
+                <img src="assets/images/excel-basics.png(2).png" alt="Excel Basics Image" class="card-img-top logo-img">
+                <div class="card-body">
+                    <h5 class="card-title">Creating a Data</h5>
+                    <p class="card-text">Learn how to create simple data entry forms in Excel.</p>
+                    <iframe 
+                        width="100%" 
+                        height="200" 
+                        src="https://www.youtube.com/embed/JMbMn7gy82I" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="card shadow-lg">
+                <img src="assets/images/excel-formatting.png" alt="Excel Formatting Tutorial" class="card-img-top logo-img">
+                <div class="card-body">
+                    <h5 class="card-title">Formatting in Excel</h5>
+                    <p class="card-text">Guide to visually enhancing Excel data presentation.</p>
+                    <iframe 
+                        width="100%" 
+                        height="200" 
+                        src="https://www.youtube.com/embed/Jp29JYGq5Hw" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+            <!-- Additional Video Cards -->
+            <div class="card shadow-lg">
+                <img src="assets/images/video-placeholder.png.png" alt="Excel Video Placeholder" class="card-img-top logo-img">
+                <div class="card-body">
+                    <h5 class="card-title">Use Formulas</h5>
+                    <p class="card-text">Perform calculations using Excel's formulas.</p>
+                    <iframe 
+                        width="100%" 
+                        height="200" 
+                        src="https://www.youtube.com/embed/Jl0Qk63z2ZY" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+            <div class="card shadow-lg">
+                <img src="assets/images/video-placeholder.png.png" alt="Excel Video Placeholder" class="card-img-top logo-img">
+                <div class="card-body">
+                    <h5 class="card-title">Create Charts</h5>
+                    <p class="card-text">Create charts: bar, pie, line.</p>
+                    <iframe 
+                        width="100%" 
+                        height="200" 
+                        src="https://www.youtube.com/embed/eHtZrIb0oWY" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+            <div class="card shadow-lg">
+                <img src="assets/images/video-placeholder.png.png" alt="Excel Video Placeholder" class="card-img-top logo-img">
+                <div class="card-body">
+                    <h5 class="card-title">Save Your File</h5>
+                    <p class="card-text">Save work via "File > Save As.</p>
+                    <iframe 
+                        width="100%" 
+                        height="200" 
+                        src="https://www.youtube.com/embed/O1Z7WjdyHbY" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+            <div class="card shadow-lg">
+                <img src="assets/images/video-placeholder.png.png" alt="Excel Video Placeholder" class="card-img-top logo-img">
+                <div class="card-body">
+                    <h5 class="card-title">Sort and Filter Data</h5>
+                    <p class="card-text">Sort and filter data efficiently.</p>
+                    <iframe 
+                        width="100%" 
+                        height="200" 
+                        src="https://www.youtube.com/embed/O28-xL5YGkE" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-green text-white text-center py-3">
+        <p>2024 Made by Sayed Suliman Torabi.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

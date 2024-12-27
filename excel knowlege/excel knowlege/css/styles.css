@@ -1,0 +1,64 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: #f4f4f9;
+    color: #333;
+}
+
+header {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background-color: #003f6b;
+    color: white;
+    margin-top: 2rem;
+}
+
+.login-container {
+    background: rgba(18, 164, 79, 0.8); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.login-form {
+    max-width: 400px;
+    margin: auto;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+
+.zoom { transition: transform 0.2s; /* Animation */
+} 
+.zoom:hover {
+     transform: scale(1.5); /* (150% zoom) */
+}
+.nav-link:hover {
+    color: #26cf1a !important; /* Example color: Tomato */
+    transition: color 0.3s ease-in-out;
+}
+
+
+/* Hover effect for menu items */
+.nav-link:hover {
+    color: #107e19; /* Example hover color: Tomato */
+    transition: color 0.3s ease-in-out;
+}
+
+/* Active state for menu items */
+.nav-link:active {
+    color: #14803e !important; /* Example active color: Darker Tomato */
+}
+

@@ -1,0 +1,134 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: #f4f4f9;
+    color: #333;
+}
+
+header {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background-color: #003f6b;
+    color: white;
+    margin-top: 2rem;
+}
+
+.login-container {
+    background: rgba(18, 164, 79, 0.8); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.login-form {
+    max-width: 400px;
+    margin: auto;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.zoom {
+    transition: transform 0.2s; /* Animation */
+}
+
+.zoom.zoom-in {
+    transform: scale(1.5); /* Adjust the scale value as needed */
+}
+
+.nav-link:hover {
+    color: #26cf1a !important; /* Example color: Tomato */
+    transition: color 0.3s ease-in-out;
+}
+
+/* Hover effect for menu items */
+.nav-link:hover {
+    color: #107e19; /* Example hover color: Tomato */
+    transition: color 0.3s ease-in-out;
+}
+
+/* Active state for menu items */
+.nav-link:active {
+    color: #14803e !important; /* Example active color: Darker Tomato */
+}
+
+
+
+
+
+@keyframes dance {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    20% {
+        transform: translateX(-10px);
+    }
+    40% {
+        transform: translateX(10px);
+    }
+    60% {
+        transform: translateX(-10px);
+    }
+    80% {
+        transform: translateX(10px);
+    }
+}
+
+.dance {
+    display: inline-block;
+    animation: dance 1s infinite;
+    font-family: 'Arial', sans-serif;
+}
+
+
+
+/* Frame around each menu item */
+.nav-item {
+    border: 1px solid #216310; /* Subtle green frame */
+    border-radius: 5px; /* Rounded corners */
+    margin: 5px; /* Space between items */
+    padding: 5px;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+/* Default state for menu items */
+.nav-item .nav-link {
+    color: white; /* Default text color */
+}
+
+/* Hover effect for menu items */
+.nav-item:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+    background-color: #e9f9e5; /* Light green background */
+    border-color: #22bb18; /* Slightly different green frame */
+}
+
+/* Change color on hover */
+.nav-item:hover .nav-link {
+    color: #216310; /* Green text on hover */
+}
+
+/* Active state for menu items */
+.nav-item.active {
+    background-color: #c2e9b9; /* More pronounced green background */
+    border-color: #22bb18; /* Slightly different green frame */
+}
+
+
+
+
+
+
+
+
